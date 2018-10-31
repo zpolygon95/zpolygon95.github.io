@@ -4,15 +4,20 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+My name is Zachary James Polikarpus, though I prefer to be called "Zac". I'm
+currently employed by [Cypress Integration Solutions][1] as a "Product
+Engineer" (that's what it says on my business card, anyway). I'm interested in
+security, privacy, and cryptography, and I'm currently persuing a bachelor's
+degree in computer science from the [University of Michigan Flint Campus][2].
+My formal resumé can be found [here][3].
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+I spend most of my days writing firmware for Cypress products in assembly
+language, and writing tools to test and support those products in python. I
+spend the rest of my days in class, playing [CTF][4] (poorly), and being
+simultaneously amazed at the pace of technological improvement and frustrated
+by how poorly some of it is implemented.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+[1]: https://cypressintegration.com
+[2]: https://umflint.edu
+[3]: /assets/resume.pdf
+[4]: https://ctftime.org
