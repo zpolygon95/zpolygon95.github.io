@@ -1,3 +1,3 @@
 # ZJP I/O #
 
-My landing page. Content coming soon!
+[My GitHub Pages Static Blog][https://zjp.io]
