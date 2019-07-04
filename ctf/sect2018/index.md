@@ -1,7 +1,7 @@
 ---
 layout: page
 title: SEC-T CTF 2018
-permalink: /ctf/sect2018
+permalink: /ctf/sect2018/
 ---
 Found at [ctftime.org](https://ctftime.org), this was a GHOST IN THE SHELL
 themed public CTF put on by [SEC-T](https://www.sec-t.org). I only found two

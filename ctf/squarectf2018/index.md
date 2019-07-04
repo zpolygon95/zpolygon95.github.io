@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Square CTF 2018
-permalink: /ctf/squarectf2018
+permalink: /ctf/squarectf2018/
 ---
 Found at [ctftime.org](https://ctftime.org), Square's annual public CTF has a
 Unix MAN page aesthetic that is very cool, and persistent hosing for past year's
