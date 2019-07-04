@@ -3,7 +3,7 @@ layout: page
 title: Section 6
 permalink: /ctf/sect2018/section6
 ---
-Look [here](../section6_raw) for a listing of related files.
+Look [here](section6_raw) for a listing of related files.
 
 # Misc (51) #
 
@@ -57,10 +57,10 @@ $ find . -type f | xargs file
 ```
 
 Looking through each of the text files, only
-[one](section6/Documents/6/Pages/6.fpage) is very interesting. Right away, at
-the end of most of the lines appears to be some sort of ASCII art composed of
-hashes and periods. I removed all the superfluous text, and replaced the
-periods with spaces in [this file](section6/ascii.txt):
+[one](section6_raw/Documents/6/Pages/6.fpage) is very interesting. Right away,
+at the end of most of the lines appears to be some sort of ASCII art composed of
+hashes and periods. I removed all the superfluous text, and replaced the periods
+with spaces in [this file](section6_raw/ascii.txt):
 
 ```
  #####  #######  #####  #######   ### ######           ###           #####

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Crypto & Privacy Village 2018
-permalink: /ctf/cpv2018/
+permalink: /ctf/cpv2018
 ---
 # DC26 Crypto and Privacy Village Goldbug CTF #
 

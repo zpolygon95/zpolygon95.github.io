@@ -1,7 +1,7 @@
 ---
 layout: page
 title: MOY1
-permalink: /ctf/cpv2018/MOY1/
+permalink: /ctf/cpv2018/MOY1
 ---
 # Crypto Factzors #
 
@@ -12,7 +12,7 @@ village. In the end, I couldn't puzzle out the key... but I did manage to
 solve the bulk of the puzzle. Thanks, [Darío](https://github.com/daedalus)
 for convincing me to do this write-up!
 
-![The full puzzle image](../factzors.png)
+![The full puzzle image](factzors.png)
 
 The prompt of this puzzle reads:
 
@@ -121,7 +121,7 @@ Given how hard (for me) the second function was to reverse, I decided to
 try something more in my wheelhouse: shuffling bits! `enc3` shuffles the
 bits of the input byte according to the following diagram:
 
-![Bit shuffling diagram](../factzors_enc3.svg)
+![Bit shuffling diagram](factzors_enc3.svg)
 
 The inverse is simple to derive:
 
