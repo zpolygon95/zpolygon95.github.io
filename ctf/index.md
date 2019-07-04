@@ -6,8 +6,8 @@ in_header: True
 ---
 # CTF Write-Ups #
 
-DEFCON26 restarted my interest in Capture the Flag. This repo will
-contain my write-ups for each of the puzzles I solve. Find CTFs at
+DEFCON26 restarted my interest in Capture the Flag. This page will
+contain my write-ups for each of the puzzles I solve. Find CTF events at
 [ctftime.org](https://ctftime.org)... Or by coming to DEFCON.
 
 ## Participation ##

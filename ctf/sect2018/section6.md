@@ -1,4 +1,11 @@
-# Section6 - Misc (51) #
+---
+layout: page
+title: Section 6
+permalink: /ctf/sect2018/section6
+---
+Look [here](../section6_raw) for a listing of related files.
+
+# Misc (51) #
 
 The challenge text reads:
 
@@ -6,7 +13,7 @@ The challenge text reads:
 This file was recovered from a scavenger.
 ```
 
-[This file](section6/section6.tar.gz)?
+[This file](section6_raw/section6.tar.gz)?
 
 Expanding the archive results in a single file, called `section6` which appears
 to be a zip archive:
@@ -52,7 +59,7 @@ $ find . -type f | xargs file
 Looking through each of the text files, only
 [one](section6/Documents/6/Pages/6.fpage) is very interesting. Right away, at
 the end of most of the lines appears to be some sort of ASCII art composed of
-hashes and periods. I removed all the superflouous text, and replaced the
+hashes and periods. I removed all the superfluous text, and replaced the
 periods with spaces in [this file](section6/ascii.txt):
 
 ```

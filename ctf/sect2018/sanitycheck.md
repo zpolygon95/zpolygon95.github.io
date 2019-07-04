@@ -1,4 +1,9 @@
-# Sanity Check - Misc (51) #
+---
+layout: page
+title: Sanity Check
+permalink: /ctf/sect2018/sanitycheck
+---
+# Misc (51) #
 
 The text of the challenge reads:
 

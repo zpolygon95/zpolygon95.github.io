@@ -10,7 +10,7 @@ puzzle on which I managed to make *any* progress. I only managed to get as far
 as I did with the help of some awesome people hanging out in the crypto
 village. In the end, I couldn't puzzle out the key... but I did manage to
 solve the bulk of the puzzle. Thanks, [Darío](https://github.com/daedalus)
-for convincing me to do this writeup!
+for convincing me to do this write-up!
 
 ![The full puzzle image](../factzors.png)
 
@@ -19,7 +19,7 @@ The prompt of this puzzle reads:
 > The below phrases have been encrypted using advanced ministry encryption
 > primitives.  Decode and report back any hidden messages!
 
-With six encryption "primitaves" defined as follows:
+With six encryption "primitives" defined as follows:
 
 ```python
 
@@ -59,7 +59,7 @@ The final clue is the text at the bottom:
 > It appears the ministry is employing some kind of anti-analysis
 > countermeasures! The below obfuscated clue may prove useful:
 
-And the following obvsuscated python code:
+And the following obfuscated python code:
 
 ```python
 hint = lambda p,k: ''.join(chr((ord(x)+k)%256) for x in p)
@@ -85,7 +85,7 @@ function appears to take some cipher function, the clear text to encrypt
 (as a `bytes` object or as an array of integers), and a key.
 
 Clearly, to decipher the messages, I need to reverse not only the
-`Encrypt` function, but also each of the given cryptographic primitaves --
+`Encrypt` function, but also each of the given cryptographic primitives --
 which I assume are the callables supplied as the first argument to the
 function.
 
@@ -101,7 +101,7 @@ fields -- and we eventually found the Wikipedia page on the
 We decided to try to use Euler's theorem, which defines the modular
 inverse as `a ** (φ(m) - 1)`, where `φ` is Euler's totient function, `a`
 is the coefficient we're trying to invert, and `m` is the size of the
-ring. According to the wiki, this holds only if `a` and `m` are coprime
+ring. According to the wiki, this holds only if `a` and `m` are co-prime
 (sharing no common factor except 1). Again, according to
 [the wiki](https://en.wikipedia.org/wiki/Euler%27s_totient_function#Computing_Euler's_totient_function):
 
@@ -135,14 +135,14 @@ dec3 = lambda p: (
 ```
 
 `enc4` is simple as well, as the Rijndael S-boxes are well known. See the
-[wikipedia article](https://en.wikipedia.org/wiki/Rijndael_S-box#Inverse_S-box).
+[Wikipedia article](https://en.wikipedia.org/wiki/Rijndael_S-box#Inverse_S-box).
 
 ```python3
 dec4 = lambda p: invRijndael[p]
 ```
 
 Now we've run out of easy work to do, and I didn't want to get into
-learning about discrete logarithims, so I applied the first prinicpal
+learning about discrete logarithms, so I applied the first principal
 virtue of programmers: laziness! That same smart person that taught me
 about rings pointed out that the space we're searching is tiny, and that
 these hard problems can be reversed with a lookup table. Therefore:
@@ -156,7 +156,7 @@ dec3 = lambda p: dec3_table[p]
 ```
 
 Next, reversing the `Encrypt` function gave me a bit of trouble. It took
-an embarrasing amount of time for me to realize that the operations not
+an embarrassing amount of time for me to realize that the operations not
 only had to be inverted (e.g. addition becomes subtraction), but also that
 they had to be applied in reverse order!
 
@@ -176,7 +176,7 @@ b'payment verification network'
 ```
 
 Success! I decrypted the other cipher text in exactly the same way, using
-the next decryption primitave for each. All the deciphered messages are
+the next decryption primitive for each. All the deciphered messages are
 below:
 
 ```python3
