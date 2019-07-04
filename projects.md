@@ -2,6 +2,7 @@
 layout: page
 title: Projects
 permalink: /projects/
+in_header: True
 ---
 
 <script src="/assets/projects.js"></script>

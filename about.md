@@ -2,6 +2,7 @@
 layout: page
 title: About
 permalink: /about/
+in_header: True
 ---
 
 My name is Zachary James Polikarpus, though I prefer to be called "Zac". I'm
