@@ -21,6 +21,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://zjp.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: zpolygon95
 github_username:  zpolygon95
+show_excerpts: true
 
 # Build settings
 markdown: kramdown
