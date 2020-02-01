@@ -15,3 +15,4 @@ contain my write-ups for each of the puzzles I solve. Find CTF events at
 + [DC26 Crypto and Privacy Village goldbug CTF](cpv2018)
 + [SEC-T CTF 2018](sect2018)
 + [Square CTF 2018](squarectf2018)
++ [Advent of Code 2019](aoc2019)
