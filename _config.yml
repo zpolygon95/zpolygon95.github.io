@@ -16,10 +16,9 @@
 title: ZJP I/O
 email: contact@zjp.io
 description: >- # this means to ignore newlines until "baseurl:"
-  Zachary Polikarpus' personal blog
+  Zofia's blog
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://zjp.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: zpolygon95
 github_username:  zpolygon95
 show_excerpts: true
 
