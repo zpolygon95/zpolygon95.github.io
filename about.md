@@ -5,9 +5,10 @@ permalink: /about/
 in_header: True
 ---
 
-Hi, I'm Zofia! I use they/them pronouns. I like computers, and somehow I've
-convinced various companies to pay me to play around with their computers for
-about the last decade or so, and I've been having a good time with that.
+Hi, I'm Zofia! I use they/them or she/her pronouns. I like computers, and
+somehow I've convinced various companies to pay me to play around with their
+computers for about the last decade or so, and I've been having a good time with
+that.
 
 I also like all sorts of music, science fiction novels, heist movies, and the
 Oxford comma. Unfortunately, I haven't yet convinced any companies to pay me to
